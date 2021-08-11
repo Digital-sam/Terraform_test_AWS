@@ -6,7 +6,7 @@ output "ec2_instance_publicip" {
   value = aws_instance.my-ec2.*.public_ip
 }
 
-
+#init changes
 # Attribute Reference - Create Public DNS URL
 output "ec2_publicdns" {
   description = "Public DNS URL of an EC2 Instance"
